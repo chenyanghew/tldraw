@@ -20,7 +20,6 @@ import { useActions } from './hooks/useActions'
 import { useAppEvents } from './hooks/useAppEvents'
 import { useBreakpoint } from './hooks/useBreakpoint'
 import { useNativeClipboardEvents } from './hooks/useClipboardEvents'
-import { useKeyboardShortcuts } from './hooks/useKeyboardShortcuts'
 import { useTranslation } from './hooks/useTranslation/useTranslation'
 
 /**
@@ -93,7 +92,7 @@ export const TldrawUiContent = React.memo(function TldrawUI({
 	const isFocusMode = useValue('isFocusMode', () => app.instanceState.isFocusMode, [])
 	const isDebugMode = useValue('isDebugMode', () => app.instanceState.isDebugMode, [])
 
-	useKeyboardShortcuts()
+	// useKeyboardShortcuts()
 	useNativeClipboardEvents()
 	useAppEvents()
 
