@@ -101,5 +101,6 @@
 	"resolutions": {
 		"@microsoft/api-extractor@^7.34.1": "patch:@microsoft/api-extractor@npm%3A7.34.1#./.yarn/patches/@microsoft-api-extractor-npm-7.34.1-af268a32f8.patch"
 	},
-	"license": "ISC"
+	"license": "ISC",
+	"main": ".eslintplugin.js"
 }
