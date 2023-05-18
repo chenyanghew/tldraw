@@ -1,16 +1,12 @@
 {
-	"name": "@tldraw/monorepo",
+	"name": "tldraw-without-keyboard-shortcuts",
 	"description": "A tiny little drawing app (monorepo).",
-	"version": "0.0.0",
-	"private": true,
-	"author": {
-		"name": "tldraw GB Ltd.",
-		"email": "hello@tldraw.com"
-	},
+	"version": "0.0.2",
+	"author": "chen yang",
 	"homepage": "https://tldraw.dev",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/tldraw/tldraw"
+		"url": "git+https://github.com/chenyanghew/tldraw.git"
 	},
 	"bugs": {
 		"url": "https://github.com/tldraw/tldraw/issues"
@@ -104,5 +100,6 @@
 	},
 	"resolutions": {
 		"@microsoft/api-extractor@^7.34.1": "patch:@microsoft/api-extractor@npm%3A7.34.1#./.yarn/patches/@microsoft-api-extractor-npm-7.34.1-af268a32f8.patch"
-	}
+	},
+	"license": "ISC"
 }
